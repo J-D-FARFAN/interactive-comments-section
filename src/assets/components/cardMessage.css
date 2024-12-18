@@ -1,0 +1,77 @@
+@import url(../../index.css);
+
+.content__allCardComments{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    .controlsComments{
+        height: 100px;
+        background-color: var(--veryLightGray);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 1rem;
+
+        .iconControlsStyle{
+            color: var(--lightGrayishBlue);
+            cursor: pointer;
+            transition: .3s ease-in-out;
+
+            &:hover{color: var(--moderateBlue);}
+        }
+
+        .numbers{
+            color: var(--moderateBlue);
+            font-weight: bold;
+        }
+    }
+
+    .content--avatar_name_descriptionComment--and-reply{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .bx__avatar-name-time__reply{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .avatar-name-time{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .bx-avatar{
+                    width: 32px;
+                    height: 32px;
+                    
+                    .avatar{width: 100%;}
+                }
+
+                .nameComments{color: var(--darkBlue); font-weight: bold; font-size: var(--text-size-preset-2);}
+                .timeDay{color: var(--grayishBlue);}
+            }
+
+            .bx-reply{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: var(--moderateBlue);
+                font-weight: bold;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+
+                &:hover{color: var(--lightGrayishBlue);}
+            }
+        }
+    }
+}

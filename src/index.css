@@ -7,6 +7,7 @@
     /*Text Styles*/
     --text-size-preset-1: 24px;
     --text-size-preset-2: 16px;
+    --text-size-preset-3: 12px;
     --font-F: Rubik-Regular;
 
 
@@ -35,6 +36,11 @@
         justify-content: center;
         align-items: center;
         background-color: var(--veryLightGray);
+
+        .txt{
+            color: var(--grayishBlue);
+            line-height: 24px;
+        }
     }
 }
 

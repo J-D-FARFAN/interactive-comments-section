@@ -10,7 +10,7 @@ export function CardMessage() {
       <article className="content__allCardComments">
         <div className="controlsComments">
           <IconPlus className="iconControlsStyle" />
-          <span className="numbers">0</span>
+          <span className="numbers">12</span>
           <IconMinus className="iconControlsStyle" />
         </div>
 
